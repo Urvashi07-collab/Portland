@@ -1,0 +1,227 @@
+/* Iphone old, 5, 5se normal mode */
+@media only screen and (min-width:320px) and (max-width:480px) 
+{
+	.wrap-banner 
+	{
+		width: 100%;
+		background-image: url(../images/background-image.jpg);
+		background-size: cover;
+		background-position: 58%;
+		padding: 0 0 30px 0;
+		position:relative;
+		height: 138vh;
+	}
+	
+	.wrap-banner:before
+	{
+		position:absolute;
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.6);
+		content:''
+	}
+
+	.web-logo 
+	{
+		width: 371px;
+		margin-top: -66px;
+	}
+	
+	.form-section 
+	{
+		width: 100%;
+		margin-top: -76px;
+	}
+	
+	.form-section h2 
+	{
+		font-size: 60px;
+		color: #ffffff;
+		font-family: 'Lobster';
+		margin-top: 20px;
+	}
+	
+	.form-section h3 
+	{
+		font-size: 24px;
+		margin-top: 12px;
+	}
+	
+	.form-section p 
+	{
+		font-size: 22px;
+	}
+	
+	.btnSubmit 
+	{
+		padding: 4px 128px;
+	}
+	
+	.social-media
+	{
+		padding-left: 0;
+		text-align: left;
+		margin-bottom: 0;
+		margin-top: 0px;
+	}
+	
+	.footer-bg p 
+	{
+		font-size: 11px;
+	}
+	
+}
+
+
+/* Iphone 6, 7, 8, 10 normal mode */
+@media only screen and (min-width:374px) and (max-width:480px) 
+{
+	.wrap-banner 
+	{
+		width: 100%;
+		background-image: url(../images/background-image.jpg);
+		background-size: cover;
+		background-position: 58%;
+		padding: 0 0 30px 0;
+		position:relative;
+		height: 100vh;
+	}
+	
+	.wrap-banner:before
+	{
+		position:absolute;
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.6);
+		content:''
+	}
+	.web-logo 
+	{
+		width: 430px;
+		margin-top: -66px;
+	}
+	
+	.form-section 
+	{
+		width: 100%;
+		margin-top: -85px;
+	}
+	
+}
+
+
+/* Iphone 6+, 7+, 8+ normal mode */
+@media only screen and (min-width:414px) and (max-width:480px) 
+{
+	.btnSubmit
+	{
+		padding: 4px 144px;
+	}
+}
+
+/* Ipad small normal mode, landscape mode on iphone 10 will also come in this tag */
+@media only screen and (min-width:768px) and (max-width:1023px) 
+{
+	.wrap-banner 
+	{
+		width: 100%;
+		background-image: url(../images/background-image.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 0 0 30px 0;
+		position:relative;
+	}
+	
+	.wrap-banner:before
+	{
+		position:absolute;
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.4);
+		content:''
+	}
+	
+	.form-section h2 
+	{
+		font-size: 65px;
+	}
+	
+	.btnSubmit 
+	{
+		padding: 4px 72px;
+	}
+	
+	.footer-bg p 
+	{
+		margin-top: 0px;
+		margin-bottom: 0;
+	}
+}
+
+/* Ipad plus normal mode */
+@media only screen and (min-width:1024px) and (max-width:1200px) 
+{
+	.btnSubmit 
+	{
+		padding: 4px 80px;
+	}
+}
+
+/* Ipad plus normal mode */
+@media only screen and (min-width:1200px) and (max-width:1365px) 
+{
+	.wrap-banner 
+	{
+		width: 100%;
+		background-image: url(../images/background-image.jpg);
+		background-size: cover;
+		background-position: top left;
+		padding: 0 0 30px 0;
+		height: 90vh;
+	}
+
+	.form-section h2 
+	{
+		font-size: 90px;
+		color: #ffffff;
+		font-family: 'Lobster';
+		margin-top: -75px;
+	}
+
+}
+
+/* Ipad plus normal mode */
+@media only screen and (min-width:1367px) and (max-width:1446px) 
+{
+	.wrap-banner 
+	{
+		width: 100%;
+		background-image: url(../images/background-image.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 0 0 30px 0;
+		height: 100vh;
+	}
+
+	.web-logo 
+	{
+		width: 600px;
+		margin-top: -72px;
+		margin-left: -90px;
+	}
+
+	.form-section h2 
+	{
+		font-size: 90px;
+		color: #ffffff;
+		font-family: 'Lobster';
+		margin-top: -75px;
+	}
+
+}
